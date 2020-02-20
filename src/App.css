@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 0 100px;
 }
 
 .App-logo {
@@ -35,4 +36,120 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color: var(--charcoal);
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+p {
+  color: var(--honeydew);
+}
+
+img {
+  width: 100%;
+}
+
+span {
+  margin: 20px 0;
+}
+
+.box {
+  border-radius: 25px;
+  margin: 5%;
+  height: 60vh;
+  background-color: var(--charcoal);
+  padding: 50px;
+  overflow-y: scroll;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  margin: 10px 150px;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--pale-green);
+  padding: 15px;
+  text-transform: uppercase;
+  min-width: 100px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--honeydew);
+}
+
+button:focus {
+  outline: none;
+}
+
+.accent-btn {
+  background-color: var(--accent);
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.compare-container {
+  display: flex;
+}
+
+.section {
+  flex-basis: 50%;
+}
+
+.inner-box {
+  color: var(--smoky-black);
+  height: 100%;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  min-height: 100px;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.paragraph {
+  color: var(--smoky-gray);
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  margin: 25px;
+}
+
+input[type="text"]:focus {
+  outline-color: var(--accent);
+}
+
+::placeholder {
+  color: var(--accent);
+}
+
+.timer {
+  font-size: 20px;
+  height: 30px;
+  color: var(--accent);
+  margin: 25px auto;
+  border: 3px solid var(--accent);
+  width: 400px;
+  padding: 20px;
+  background-color: var(--smoky-black);
 }
